@@ -1,0 +1,35 @@
+h2 {
+    text-shadow: 0px 0px 20px #00f7ff;
+    -webkit-animation: blinkH1 5s infinite;
+    animation: blinkH1 5s infinite;
+}
+
+h2:after {
+    filter: blur(15px);
+    -webkit-animation: blinkH1After 5s infinite;
+    animation: blinkH1After 5s infinite;
+}
+
+h2:before {
+    filter: blur(50px);
+    -webkit-animation: blinkH1Before 5s infinite;
+    animation: blinkH1Before 5s infinite;
+}
+
+h3 {
+    text-shadow: 0px 0px 20px #00f7ff;
+    -webkit-animation: blinkH1 5s infinite;
+    animation: blinkH1 5s infinite;
+}
+
+h3:after {
+    filter: blur(15px);
+    -webkit-animation: blinkH1After 5s infinite;
+    animation: blinkH1After 5s infinite;
+}
+
+h3:before {
+    filter: blur(50px);
+    -webkit-animation: blinkH1Before 5s infinite;
+    animation: blinkH1Before 5s infinite;
+}
